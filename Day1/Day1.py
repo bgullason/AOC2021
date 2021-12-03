@@ -3,7 +3,7 @@ from csv import reader
 
 
 # open file in read mode
-with open('Day1_Input.csv', 'r', encoding='utf-8-sig') as read_Day1_Input:
+with open('Day1/Day1_Input.csv', 'r', encoding='utf-8-sig') as read_Day1_Input:
     csvreader = reader(read_Day1_Input)
     
     count = 0
