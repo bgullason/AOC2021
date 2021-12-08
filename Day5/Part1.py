@@ -18,7 +18,7 @@ data = []
 file_name = 'Input'
 if test_mode: 
     file_name = 'Test' 
-with open(f'Day{day_number}\{file_name}.csv', 'r', encoding='utf-8-sig') as csv_data:
+with open(f'{file_name}.csv', 'r', encoding='utf-8-sig') as csv_data:
     csv_reader = reader(csv_data)
     for row in csv_reader:
         data.append(row)
